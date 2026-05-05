@@ -1,0 +1,16 @@
+# data — нельзя публично распространять данные Kaggle
+data/raw/
+data/processed/
+*.csv
+*.pkl
+*.joblib
+
+# jupyter artifacts
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+.env
+venv/
