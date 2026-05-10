@@ -6,6 +6,12 @@ colorTo: green
 sdk: docker
 pinned: false
 ---
+## Live Demo
+
+API задеплоен на Hugging Face Spaces:
+- **Документация:** https://Lakerrs-in-5-credit-scoring.hf.space/docs
+- **Health check:** https://Lakerrs-in-5-credit-scoring.hf.space/health
+
 # Credit Scoring Pipeline
 
 ML pipeline для оценки кредитного риска на основе датасета 
