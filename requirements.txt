@@ -3,6 +3,7 @@ annotated-doc==0.0.4
 annotated-types==0.7.0
 anyio==4.13.0
 asttokens==3.0.1
+certifi==2026.4.22
 click==8.3.3
 cloudpickle==3.1.2
 colorama==0.4.6
@@ -17,6 +18,8 @@ fastapi==0.136.1
 fonttools==4.62.1
 greenlet==3.5.0
 h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
 idna==3.13
 iniconfig==2.3.0
 ipykernel==7.2.0
