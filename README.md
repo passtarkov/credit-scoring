@@ -21,28 +21,29 @@ ML pipeline для оценки кредитного риска на основ�
 - **Тесты:** pytest (11 тестов)
 
 ## Структура проекта
-credit-scoring/
-├── data/
-│   ├── raw/                  # application_train.csv, bureau.csv
-│   └── processed/            # обработанные данные, модель
-├── notebooks/
-│   ├── 01_eda.ipynb          # EDA + baseline LogReg
-│   ├── 02_features.ipynb     # Feature engineering
-│   ├── 03_models.ipynb       # LightGBM + Optuna
-│   └── 04_shap.ipynb         # SHAP анализ
-├── src/
-│   ├── features.py           # Feature engineering pipeline
-│   ├── train.py              # Обучение модели
-│   └── evaluate.py           # Метрики и SHAP
-├── api/
-│   ├── main.py               # FastAPI приложение
-│   └── schemas.py            # Pydantic схемы
-├── tests/
-│   ├── test_features.py      # 5 тестов
-│   └── test_api.py           # 6 тестов
-├── reports/figures/          # SHAP графики
-├── Dockerfile
-└── requirements.txt
+
+    credit-scoring/
+    ├── data/
+    │   ├── raw/                  # application_train.csv, bureau.csv
+    │   └── processed/            # обработанные данные, модель
+    ├── notebooks/
+    │   ├── 01_eda.ipynb          # EDA + baseline LogReg
+    │   ├── 02_features.ipynb     # Feature engineering
+    │   ├── 03_models.ipynb       # LightGBM + Optuna
+    │   └── 04_shap.ipynb         # SHAP анализ
+    ├── src/
+    │   ├── features.py           # Feature engineering pipeline
+    │   ├── train.py              # Обучение модели
+    │   └── evaluate.py           # Метрики и SHAP
+    ├── api/
+    │   ├── main.py               # FastAPI приложение
+    │   └── schemas.py            # Pydantic схемы
+    ├── tests/
+    │   ├── test_features.py      # 5 тестов
+    │   └── test_api.py           # 6 тестов
+    ├── reports/figures/          # SHAP графики
+    ├── Dockerfile
+    └── requirements.txt
 ## Ключевые решения
 
 **Метрика — ROC-AUC вместо accuracy**  
