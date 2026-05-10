@@ -1,3 +1,11 @@
+---
+title: Credit Scoring
+emoji: 💳
+colorFrom: blue
+colorTo: green
+sdk: docker
+pinned: false
+---
 # Credit Scoring Pipeline
 
 ML pipeline для оценки кредитного риска на основе датасета 
